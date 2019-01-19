@@ -1,0 +1,113 @@
+Zsh Mailing List Archive
+Messages sorted by: Reverse Date, Date, Thread, Author 
+Re: local/typeset stupidity
+X-seq: zsh-users 8304
+From: Peter Stephenson <pws@xxxxxxx>
+To: zsh-users@xxxxxxxxxx
+Subject: Re: local/typeset stupidity
+Date: Mon, 20 Dec 2004 11:51:00 +0000
+In-reply-to: <20041220112025.GA9720@xxxxxxxxxxxxxxxxxx>
+Mailing-list: contact zsh-users-help@xxxxxxxxxx; run by ezmlm
+References: <20041220112025.GA9720@xxxxxxxxxxxxxxxxxx>
+Nikolai Weibull wrote:
+> Why the <profanity> doesn't local work like one would expect?  If i
+> write
+> 
+> func () {
+> 	local s="..."
+> }
+> 
+> then I don't expect zsh to respond with
+> 
+> func:local:1: not valid in this context: 100
+> 
+> right?
+
+There's something you're not telling us.  With the default zsh options
+the syntax you show is guaranteed to work.  My guess is something is
+causing what you show in "..." to be split into words.  Is there a "$@"
+inside it?  For example,
+
+func() {
+   local s="$@"
+}
+func foo 100
+
+would produce an error like the one you show, because the line is
+effectively split up as
+
+local s="foo" 100
+
+To assign all the arguments to s without splitting you would need
+s="$*".
+
+> local s; s="..."
+> 
+> works fine, though, even with typesetsilent off.
+
+s="..."
+
+is special syntax; it's recognised as a scalar assignment, so
+wordsplitting is implicitly turned off.  This differs from "local" which
+has the semantics of a normal builtin, almost (actually, there's special
+behaviour of ~'s and ='s at the start of the value).
+
+This is rather nasty.  People often expect assignments after "local"
+etc. to be the same as assignments on their own, but that syntax
+conflicts with the way the arguments of builtins, and any other
+commands, are handled.  There's no simple answer, but retaining builtin
+syntax is at least predictable and stops the already horrendous code for
+local variables from becoming any worse.  Any way round is a kludge of
+some sort.
+
+>  Even with
+> 
+> setopt typesetsilent # (how can't this be the default?)
+
+typesetsilent works around a different problem:
+
+func() {
+  local s;
+  local s;
+}
+func
+
+outputs
+
+s=''
+
+unless the option is turned on.  This came from the very early days of
+zsh.  It was mostly useful for examining the state of variables that
+already exist interactively; it's not obvious you would use it in a
+function.  It's annoying this is the default behaviour.  There
+may be a better way of suppressing the output in functions, but I'm not
+sure whose functions it would break.  Personally I'd be quite happy to
+have the effect of typesetsilent enforced inside functions.  A
+compromise would be to keep the non-silent behaviour only for "typeset"
+itself.
+
+-- 
+Peter Stephenson <pws@xxxxxxx>                  Software Engineer
+CSR PLC, Churchill House, Cambridge Business Park, Cowley Road
+Cambridge, CB4 0WZ, UK                          Tel: +44 (0)1223 692070
+
+
+**********************************************************************
+This email and any files transmitted with it are confidential and
+intended solely for the use of the individual or entity to whom they
+are addressed. If you have received this email in error please notify
+the system manager.
+
+This footnote also confirms that this email message has been swept by
+MIMEsweeper for the presence of computer viruses.
+
+www.mimesweeper.com
+**********************************************************************
+
+Follow-Ups:
+Re: local/typeset stupidity
+From: Nikolai Weibull
+References:
+local/typeset stupidity
+From: Nikolai Weibull
+Messages sorted by: Reverse Date, Date, Thread, Author 
