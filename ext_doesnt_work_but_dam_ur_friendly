@@ -1,0 +1,353 @@
+the thing about js/node being ubiquitious means 
+1) everyone has to use it at some point
+2) signal/noise ratio of goodinfo/trashshitpost causes mental health issues
+2b) YOU COULD DO A BETTER JOB NODE GOVERNMENT BY PERHAPS LAYING DOWN THE LAW (sometimes) 
+2c) srsly lang-backed-by-all-megacorps, its a clown fiesta out there.
+
+so, a color picker. im no front end. but seems an ez task? no?
+perhaps its because its so ez that the top 2 ext in vscode are at 3 stars.
+the builtin from ms only works under css conditions?
+how about if i wanna change a color in my json settings file? hmmm?
+neways, this is about social skills 4 nerds.
+
+this nerd a_ENN_s_EEE_k_EYE gets it. heres the pseudo.
+def ss4nerds():
+  rv = f"{greet_ty}{troubleshoot}{ask4followup}"
+  rv_extramile = f"{checkupOK}"
+  if active:
+    yield rv 
+  if closed_unresolved:
+    yield rv_extramile
+(nb. generators in py are infinite)
+
+--pasta example (but he/she does it every time, check the fuckin issues page)--
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@gui-leeahni 
+1
+51 13 anseki/vscode-color
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+[processBridge]: Error: electron-prebuilt@0.37.3 postinstall #7
+ Closed	kefirzt opened this issue on Aug 11, 2016 · 26 comments
+ Closed
+[processBridge]: Error: electron-prebuilt@0.37.3 postinstall #7
+kefirzt opened this Issue on Aug 11, 2016 · 26 comments
+Comments
+Assignees
+No one assigned
+Labels
+None yet
+Projects
+None yet
+Milestone
+No milestone
+Notifications
+You’re not receiving notifications from this thread.
+10 participants
+@kefirzt
+@anseki
+@epoweripione
+@imgwho
+@cavaloni
+@bman61
+@mxdyyt1314
+@mihail-karimov
+@saadfamin
+@kuanyui
+@kefirzt
+ 
+kefirzt commented on Aug 11, 2016
+i'am trying to strart color-picker and recieve this error:
+[processBridge]: Error: electron-prebuilt@0.37.3 postinstall
+
+windows 7 x32
+node ver 4.4.5
+npm ver 2.15.5
+VSC 1.4
+
+ @anseki
+ Owner
+anseki commented on Aug 11, 2016
+Hi @kefirzt, thank you for the report.
+
+When the error message was shown, more information might be shown in console.
+(Click menu of VS Code "Help > Toggle Developer Tools", and click "Console" tab)
+If some information were shown, please let me know all of those.
+
+ @kefirzt
+ Author
+kefirzt commented on Aug 11, 2016
+Extension Host] Error: ENOENT: no such file or directory, open 'C:\Users\xe6338.vscode\extensions\anseki.vscode-color-0.1.9\node_modules\electron-prebuilt\path.txt'
+at Error (native)
+at Object.fs.openSync (fs.js:584:18)
+at Object.module.(anonymous function) as openSync
+at Object.fs.readFileSync (fs.js:431:33)
+at Object.fs.readFileSync (ELECTRON_ASAR.js:426:29)
+at Object. (C:\Users\xe6338.vscode\extensions\anseki.vscode-color-0.1.9\node_modules\electron-prebuilt\index.js:4:42)
+at Module._compile (module.js:413:34)
+at Object.Module._extensions..js (module.js:422:10)
+at Module.load (module.js:357:32)
+at Function.Module._load (module.js:314:12)(anonymous function) @ editorStatus.ts:894emitTwo @ events.js:100emit @ events.js:185handleMessage @ internal/child_process.js:718channel.onread @ internal/child_process.js:444
+debugViewer.ts:933 [processBridge]: Error: ENOENT: no such file or directory, open 'C:\Users\xe6338.vscode\extensions\anseki.vscode-color-0.1.9\node_modules\electron-prebuilt\path.txt'e.doShow @ debugViewer.ts:933e.show @ debugViewer.ts:907e.resume @ debugViewer.ts:898(anonymous function) @ fake:1e.invoke @ treeModel.ts:800e.fire @ treeModel.ts:930(anonymous function) @ debugConfigurationManager.ts:266
+
+ @anseki
+ Owner
+anseki commented on Aug 11, 2016
+It seems that the installing failed.
+Try to re-install the extension.
+Remove C:\Users\xe6338.vscode\extensions\anseki.vscode-color-0.1.9 directory completely.
+And install Color Picker again.
+
+ @anseki anseki referenced this issue on Aug 14, 2016
+ Closed
+[processBridge]: Error: ENOENT: no such file or directory, open 'MYHOME/.vscode/extensions/anseki.vscode-color-0.1.9/node_modules/electron-prebuilt/path.txt' #8
+@anseki
+ Owner
+anseki commented on Aug 24, 2016
+No reply came, and I close this issue.
+
+ @anseki anseki closed this on Aug 24, 2016
+ @anseki anseki referenced this issue on Sep 27, 2016
+ Closed
+Error: Cannot find module 'ansi' #10
+@epoweripione
+ 
+epoweripione commented on Sep 28, 2016
+same error in Windows 10 (1607):
+Extension Version: 0.1.11
+VS Code Version: 1.5.3
+OS Version: Windows 10 (1607)
+Node.js Version (result of command node -v): 6.7.0
+NPM Version (result of command npm -v): 3.10.3
+
+Log:
+
+workbench.main.js:118 [Extension Host] Error: ENOENT: no such file or directory, open 'C:\Users\test\.vscode\extensions\anseki.vscode-color-0.1.11\node_modules\electron-prebuilt\path.txt'
+    at Error (native)
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:158:20)
+    at Object.fs.readFileSync (fs.js:431:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:426:29)
+    at Object.<anonymous> (C:\Users\test\.vscode\extensions\anseki.vscode-color-0.1.11\node_modules\electron-prebuilt\index.js:4:42)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)(anonymous function) @ workbench.main.js:118emitTwo @ events.js:100emit @ events.js:185handleMessage @ internal/child_process.js:718channel.onread @ internal/child_process.js:444
+workbench.main.js:93 [processBridge]: Error: ENOENT: no such file or directory, open 'C:\Users\test\.vscode\extensions\anseki.vscode-color-0.1.11\node_modules\electron-prebuilt\path.txt'
+image
+
+ @anseki
+ Owner
+anseki commented on Sep 28, 2016
+Was it not resolved by my recommendation?
+
+ @epoweripione
+ 
+epoweripione commented on Sep 28, 2016
+i remove the directory and re-install the extension.
+it work,thanks a lot.
+
+ @anseki
+ Owner
+anseki commented on Sep 28, 2016
+😃
+
+ @anseki anseki referenced this issue on Dec 10, 2016
+ Closed
+[processBridge]: Error: electron-prebuilt@0.37.3 postinstall: `node install.js` #20
+@imgwho
+ 
+imgwho commented on Dec 10, 2016
+Thxxxxxx a lot!!!!
+I removed that directory completely and install again.Then it works
+
+ @anseki
+ Owner
+anseki commented on Dec 10, 2016
+@imgwho 😄
+
+ @cavaloni
+ 
+cavaloni commented on Dec 23, 2016
+Where is this directory in linux?
+
+ @anseki
+ Owner
+anseki commented on Dec 23, 2016
+Hi @cavaloni,
+It's same path in Windows, Mac, Linux.
+
+~/.vscode/extensions/anseki.vscode-color-x.x.x
+ @bman61
+ 
+bman61 commented on Jan 5, 2017
+This extension fails repeatedly for me (uninstall/delete ext folder doesn't matter)
+[processBridge]: Error: electron-prebuilt@0.37.3 postinstall: node install.js
+
+VS Code 1.8.1
+Windows 7 Enterprise
+Node 6.5
+
+ @anseki
+ Owner
+anseki commented on Jan 5, 2017
+Hi @bman61,
+More information please.
+https://github.com/anseki/vscode-color/blob/master/.github/ISSUE_TEMPLATE.md
+
+ @anseki anseki referenced this issue on Jan 25, 2017
+ Closed
+[processBridge]: Error: electron-prebuilt@0.37.3 postinstall: `node install.js` #24
+ @anseki anseki referenced this issue on Mar 2, 2017
+ Closed
+Please wait a while for setting up the extension... #13
+ @anseki anseki referenced this issue on May 3, 2017
+ Closed
+electron-prebuilt@0.37.3 postinstall: `node install.js` #31
+@mxdyyt1314
+ 
+mxdyyt1314 commented on May 3, 2017 • 
+@anseki removed unsafe commands
+
+ @anseki
+ Owner
+anseki commented on May 4, 2017
+@mxdyyt1314
+Do you mean that those are invalid command? Or did you execute those command?
+Anyways, you should not execute those because those might break modules (dependencies) in your computer.
+
+This was referenced on May 28, 2017
+ Closed
+The Color Picker Doesn't Start or show up #36
+ Closed
+[processBridge]: Error: electron-prebuilt@0.37.3 postinstall: `node install.js` i get this error when I try to pick a color #38
+ Closed
+[processBridge]: Error: ENOENT: no such file or directory, open 'C:\Users\admin\.vscode\extensions\anseki.vscode-color-0.4.1\node_modules\electron-prebuilt\path.txt' #39
+ @anseki anseki referenced this issue on Jun 27, 2017
+ Closed
+[processBridge]: Error: electron-prebuilt@0.37.3 postinstall: `node install.js` #49
+@mihail-karimov
+ 
+mihail-karimov commented on Jun 27, 2017
+i deleted directory and install extension again, when i try to show dialog it says "setting up extensions" in the bottom. Then it shows error see in screenshot.
+
+ @anseki
+ Owner
+anseki commented on Jun 27, 2017
+Displaying the message "Please wait a while for setting up the extension" is correct behavior.
+You should wait for the finish when the message "Please wait" is displayed.
+
+ @mihail-karimov
+ 
+mihail-karimov commented on Jun 27, 2017
+yes i waited for a message finish, after it message disappears and show this dialog
+dd
+
+ @anseki
+ Owner
+anseki commented on Jun 27, 2017
+It seems that the installation failed.
+And cache data in your computer might be broken.
+You can clear the cache data by this:
+
+Uninstall the extension.
+Command to remove NPM cache data.
+npm cache clean
+Command to confirm the cache data were cleared.
+npm cache ls
+Remove Electron cache data in:
+"%USERPROFILE%\.electron" (Windows)
+~/.electron (others)
+Re-install the extension.
+ @saadfamin
+ 
+saadfamin commented on Aug 7, 2017
+When I try to do it ..this comes up and its not really working
+this
+
+ @anseki
+ Owner
+anseki commented on Aug 7, 2017
+Hi @saadfamin, thank you for the report.
+Could you tell me details, please?
+See: https://github.com/anseki/vscode-color/blob/master/.github/ISSUE_TEMPLATE.md
+
+ @anseki anseki referenced this issue on Aug 10, 2017
+ Closed
+[processBridge]: Error: ENOENT: no such file or directory, open 'C:\Users\vimcaw\.vscode\extensions\anseki.vscode-color-0.4.5\node_modules\electron-prebuilt\path.txt' #53
+This was referenced on Jan 7, 2018
+ Closed
+no such file or directory #67
+ Closed
+Error: ENOENT: no such file or directory, open 'C:\Users\Licardo\.vscode\extensions\anseki.vscode-color-0.4.5\node_modules\electron-prebuilt\path.txt' #68
+ @anseki anseki referenced this issue on Nov 21, 2018
+ Closed
+Error when run: ENOENT: no such file or directory #77
+@kuanyui
+ 
+kuanyui commented on Nov 21, 2018 • 
+From #77 . Environment is described in #77.
+I followed #7 (comment)
+
+Clean caches and open VSCode.
+Open developer console of Electron.
+Install color picker.
+Run color picker, and console output lots of information like this:
+screenshot_20181122_133832
+...Then it automatically started to download something:
+screenshot_20181122_133220
+
+Finally, download finished
+After downloading finished, I run color picker again and again, but it output some log without Color Picker shown. VSCode should be restarted.
+screenshot_20181122_133807
+
+Restart VSCode
+Then restart VSCode, run color picker again, it works.
+
+BTW, just curious that why not merely use a JS color picker, such as http://bgrins.github.io/spectrum/ ?
+
+ @anseki
+ Owner
+anseki commented on Nov 21, 2018
+@kuanyui, thank you for the report.
+So, do you mean that the Color Picker was not shown?
+Or, was it shown? and was the issue solved?
+
+ @kuanyui
+ 
+kuanyui commented on Nov 22, 2018 • 
+Issue sovled after restarting VSCode.
+
+ @anseki
+ Owner
+anseki commented on Nov 22, 2018
+@kuanyui, thank you 😄
+
+ @gui-leeahni
+   
+ 
+ 
+ 
+Leave a comment
+Attach files by dragging & dropping, selecting or pasting them.
+
+ Styling with Markdown is supported
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
