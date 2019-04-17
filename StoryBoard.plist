@@ -1,0 +1,152 @@
+today i shall present 2 exhibits from "sauce".
+exhibit A) app's faqs
+exhibit B) philoceraptor on oss
+
+commentary:
+A) shit made me laugh. (somewhat defensively) im disappointed in the lack of humor programmers have. its just part of the commodification-of-programming-as-an-occupation (i.e., people have gathered and when people gather bad things happen). memes r internets. programmer home internets. programmer no laugh. y. 
+
+B) but have u hear about G-NOO-LEE-Nix?
+anyway. one thing that wont be apparent to anyone (im betting, come fight me) is 
+the author reveals he 1) was born privileged 2) has continued to enjoy privilege 3) is currently living the privileged life. there are many ways privelged reveals itself. *imptly* most people in ~~software~~ living in humane conditions are from and never left those conditions. e.g., "benefits everyone" carries baggage for anyone who is both (!privileged AND class-concious). So far ive found one person that meets those conds. 
+-that being said-
+this person seems to me to be a person who "tries to do the right thing".
+that is rare since society does not reward morality. 
+if i had to be friends with him or an internet rando, i'd choose him. <3.
+im not gay, tho i have no problem w/ "teh gays". i dont even kno y there was a controversy there.
+i simply explained bc u noobs dont get internet speak and memes. 
+ok im rambling, i didnt read the whole "the art of oss" by the author. bc im poor. i grew up poor. and have remained. im also kinda dumb. and autistic (not artistic). and in those level in which i have intimiate class-self-consciousness, the text reveals privilege. 
+
+BTW THIS IS AN EXAMPLE OF GOOD SOCIAL SKILLS IN CASE MY AUTISM OBFUSCATES THAT
+
+EXHIBIT A) === = === == = ==== == = = ==
+FAQ
+"CHARLES, I RESPEKT UR OPINIONATED SOFTWARE DESIGN GANGSTER, BUT I NEED TO POLISH MY DRAWINGS TIGHTER." No problem, needy bruh. You can click a button to edit in photoshop, and when you save, it updates in Storyboarder.
+
+"CHARLES, STORYBOARDER IS REVOLUTIONARY. PERHAPS BIGGER THAN JESUS AND WRESTLING. - Saul Bass" Fuck you, Saul Bass. Absolutely bigger than Jesus and wrestling. Also, your work output has really dropped off in recent years.
+
+"HOW COME WHEN I'M DRAWING, I HEAR THE IMPERIAL MARCH?" You're probably boarding on the Simpsons. You might want to escape North Korea through China. If not shot crossing the river, you will probably be sold into slavery by the Chinese. Work for 5 years, buy your freedom and make your way to Seoul. This should fix your issue. You're welcome.
+
+
+
+EXHIBIT B) ==== ==== == = == ==== == == === == === ==
+
+
+Stories Technology Jobs About
+Wonder Unit's Thoughts on Free and Open Source.
+TLDR: Storyboarder will be MIT licensed with a few exceptions. Also, there will be an educational version of Storyboarder.
+Some background…
+Storyboarder is a tool that we’ve been developing that allows you to draw and organize visual boards of a story. We spent a lot of time trying to make a very simple tool that would allow anyone to go from an idea to a storyboard as fast as possible. As of this writing, we have spent over $150,000 USD developing it and will continue. We’ve been developing the tool in the open, making releases rapidly as we develop new features and fix bugs. Initially, we were getting a modest 6 downloads a day for a couple months. In fact, I lamented to my wife that I just didn’t think anyone was that interested in free storyboard software – which is fine, because we were making the tool for ourselves, not trying to win a popularity contest. On September 5th, after making the website nicer, something incredible happened. We got 9,000 downloads in a single day. 90% from Facebook, 9% from Twitter, 1% from Tumblr. There wasn’t a single press article written. As of this writing, there have been almost 45,000 downloads. We are super happy people are liking it.
+
+Why make software free or easily available?
+Wonder Unit’s primary objective is to develop great stories and produce movies. For the past few years, we’ve been developing software tools for internal use. The development and use of processes and technology is incredibly important for creativity. Because we are just one studio, we feel that it would be a waste for only us to benefit from these tools. Creativity shouldn’t be a competitive sport. We believe a rising boat should lift all tides – or at least try to. If we share our tools and processes, ideally, the creative ecosystem will benefit. There is no competitive advantage to keeping tools and tech private – at least for us.
+
+Releasing tools for free also provide other benefits:
+
+Community feedback makes our tools better.
+We get to see our tool being used to create beautiful work.
+We get to communicate with great people, potential new team members.
+Charging money for niche software doesn’t make its money back, limits the people who can use it, and is super annoying dealing with payment issues.
+But releasing tools for free is also hard:
+
+Support takes a lot of time.
+We spend a lot of extra time, money and effort to make it user-friendly and polished.
+Demand for new features can deviate us from our original purpose of the tool.
+People’s opinion on the design of the tool can differ from ours.
+People can be really mean, probably because they were having a bad day.
+What do we want from making Storyboarder open source?
+ 
+
+When I was 7 years old, I got my hands on a book called “Basic Computer Games” It was a book of source code to 100 computer games. All you had to do was type in the code, and you could play the games! As a 7-year-old kid, I was really only interested in the games part. This was my first exposure to “open source.” I was tricked into learning to code because I wanted to play games. I learned how the games worked. Subsequently, I was more interested in making games than playing them. I think that without this book and similar books that published BASIC code, I wouldn’t have become a creative engineer. Since the late 90s, I’ve really enjoyed making graphics demonstrations (“demos”) and releasing the source so other people could learn and comment on my code: (http://setpixel.com from the wayback machine)
+
+I’ve never really thought about the legal aspects of open source software until recently. I’ve known for decades that people were concerned about it, but I really just didn’t care much. My interest was to learn and to share for the purpose of learning and making dope ass shit. When I look at people like Richard Stallman, I just don’t know what they want out of life, but it’s certainly not to cultivate great taste, or to make great art. He seems to want to politicize some open source agenda as a religion to the detriment of taking a shower or exercising. I fail to see what he is trying to achieve. He seems to connect with only certain types of people - definitely not me.
+
+All of us are the beneficiaries of open source libraries and frameworks. Most of us don’t write machine code anymore. We write code abstracted many layers above that, designing on the highest level that allows us to do what we want with the least amount of effort. All of this technology is built upon prior tech and art. Whether or not it was open source, we have learned from its existence and built upon it. Open source building blocks accelerate development by offering drop-in solutions to hard problems, rendering them completely trivial. I’ve contributed to a bunch of open source libraries. I see a bug, I fix it. Everyone benefits.
+
+Up until a couple months ago, I had never read an open source license. I knew that some of them provided different assignment of rights, protections, and exclusions. I didn’t know much more than that.
+
+Most of my interaction with open source software has been with the usage of libraries and to a lesser extent, frameworks. A library usually solves a discrete and concise problem. They are building blocks. There’s a clear problem that it solves, and the output of the library is very straightforward. There isn’t much idiosyncrasy with these libraries. In fact, in most cases, there are multiple different libraries that do similar things, for different platforms and in different languages. Most of the time, with little effort, you can interchange these libraries.
+
+End-user software is different. End-user software is a collection of opinions, choices, and decisions about how a user will interact with a system to do work. The designer of the software has thought a lot about the way people use software, what they need to do, how to present the interface in a way that is easy to understand. A good software designer has a strong point of view, and expresses that view in the form of clear decisions that make that software simple, beautiful, and powerful. The designer may have the opinion that a calculator should not be the feature of a painting program, because, well that’s just dumb. However, in a design application, the use of very specific measurements are important, and therefore, a built-in calculator system may be a great innovation in a design application. Both applications produce visual art, one needs a calculator, the other doesn’t. That’s the opinion of the designer. Different end user software approaches solutions in different ways because the opinions of the designers are different.
+
+Making the source for Storyboarder publicly available has been very interesting. Our interest is to be very clear and transparent about what we are doing in the software, and how we are doing it. Ideally, people will be able to point out problems, make suggestions on how to make it better. Secondly, I hope we’ve solved some problems other people were thinking about and the source would provide a point of view on how to fix it. To this effect, people have been absolutely great!
+
+But…
+What I didn’t expect is the degree to which certain people would disagree with certain opinions I have, and the decisions I’ve made. One example how some people have requested a drawing tool that rivals Photoshop in features. The entire purpose of Storyboarder is to be as simple as possible. Therefore, we work hard to ensure interoperability with external editors. While I am currently rewriting the drawing system to be much more performant, I don’t think I will be supporting the variety of tools that some people have requested. This is not that tool’s job.
+
+It’s my job as the software’s designer to keep that line. If I didn’t, this software would end up a complicated mess. It would have every feature anyone ever asked for. It would be poorly designed, and as a result, no one would use it. If I center my strong opinions, the software becomes weak ass soup. If you see a calculator feature in Storyboarder, you’ll know that I have been murdered and replaced by a democratic committee of software developers elected by middle America to create the most average piece of creative software.
+
+Who would do this? Well, there is a right-wing religious group called the FOSS. It stands for Free and Open Source Software. To the die-hard FOSS devotee, they only use free and open-source software. I love free and open source software. But these people think that paid software is the work of the devil. One of my favorite issues in Github for Storyboarder is that they are unhappy that we integrate with Photoshop, a closed, paid piece of software, by default. WHUUT? Listen, buddy. I use Photoshop. Almost every digital creative uses Photoshop. The entire world uses Photoshop. Photoshop is useful. I know it sucks to pay a subscription fee to use it. I don’t like paying for stuff. Rent is too damn high. Why isn’t everything free? Life is difficult. Storyboarder’s job isn’t to champion some open source religion, it’s to be software that makes creative people’s lives easier. Besides, when they aren’t talking about how Gimp is just as good as Photoshop, they don’t seem to be making very good art. I can’t find a single crazy FOSS person that has good taste. They seem like AV nerds who are more interested in the tech than actually using the tech to make anything interesting.
+
+Speaking of good taste, good user interface design results from a thoughtful approach to how a human interacts with a system. As a person, a system with values and intent, I interact with similarly complex systems on a daily basis. In fact, I find it enjoyable. My favored mode of communication with other systems is conversation. Ideally, we both speak the same language. I try to make my intent clear, and I want to know the other system’s intent as well, so we will get the most out of our interaction together. Unfortunately, computer systems aren’t as easy to communicate with as other people. Therefore, it is my opinion that the designer should be aware of this and try to instill a unique voice into the software. This may include flowery language, jokes, political commentary, profanity, and painful self-awareness of its own shortcomings as a dumb piece of software. I believe that having a strong and unique voice is what makes my software unique and playful. Furthermore, if my historical success is any indication, the majority of people agree with me, or I have at least been fortunate despite being bold.
+
+Yet there is a minority of people who, despite wanting to use a tool that promotes free expression, do not appreciate my right to express myself freely.
+
+ 
+
+The United States provides the best high school education in the world. It’s too bad you have to go to college to get it.
+
+ 
+
+Ok, I get it. Despite kids pledging allegiance to a country run by some clown who brags about grabbing women by the pussy, a few four-letter words in storyboard app have just plain crossed the line? Why don’t they just burn all the books that have forbidden words and just teach the bible in public schools? Wait, what? They already do that? You’d think America is so fucked. Yet, if their kids were as dumb as they wanted them to be, they probably wouldn’t be able to find my software on their own. But I doubt they are that dumb. I bet they are downloading the shit out of Storyboarder, smoking a joint (probably weak ass shit they stole from their dad), exploring their sexuality, testing their boundaries, learning from their mistakes, and becoming well-adjusted young adults, all while writing dope ass stories I want to see as movies someday.
+
+So what’s the problem?
+So some guy who is an educator sought to face this problem head-on. He forked the repo. He copied the code and created a new repo. He removed all the swears. He changed the name of Storyboarder to some dumb name. And then he changed it again because he probably realized that first name was fuckin’ dumb. But what’s weird is that he scrubbed all mention of Wonder Unit from everything. The readme, the software, and even the images. Because of the way GitHub works, it now looks like we are contributors on his project.
+
+Naturally, I didn’t like that, because it didn’t seem like it was in the spirit of open source. Did he somehow make an original work by just taking some stuff out?
+
+What’s worse, is that he went on Twitter to promote his work, and lastly on Storyboarder’s Facebook group, linking to a Gumroad page where people could pay him for his work.
+
+I banned him from the group on the grounds of being a real piece of shit.
+
+After he passive-aggressively said some shit to me on Twitter, he told me that the software had an ISC license.
+
+Which is funny because I didn’t even know what ISC was. So I search the Storyboarder source, and I find “license”: “ISC” in package.json. That’s weird. I don’t remember doing that. It turns out, it’s the default setting when you type “npm init.” I guess that’s just some sort of unintentional mistake. Upon reading the ISC license, I see that the actual license text must appear in all copies, which it wasn’t. So Storyboarder was never licensed under any agreement.
+
+This series of events, while annoying, was a blessing in disguise. It made me realize that there is a big distinction between open source libraries and open source end-user software. I needed to figure out quickly what I wanted out of making the software open source, and more importantly, what I didn’t want.
+
+Firstly, to everyone that thinks open source software needs to be MIT licensed and nothing more, I mostly agree with you. For libraries included in projects, it’s very important. We will be releasing a few MIT licensed libraries soon. Additionally, when sourcing libraries, it’s difficult to use libraries that have exotic licenses.
+
+However, I do not think this should be the standard case for end user software. In many cases, I would like to see the code of software that I use so that I can better understand how they are doing things, and if I see the opportunity, provide suggestions for enhancements. But, I do not need a license to copy their code. Furthermore, who has a big problem with an exotic license in open source end user software if you understand it? It’s not like you are including end-user software as a library in a larger piece of software.
+
+So what I’m thinking based on my experience:
+MIT License + The following exceptions:
+
+I don’t want anyone, to charge for Storyboarder, with maybe the exception of Wonder Unit Inc. (If we struggle to make it free, you can’t be paid.)
+If you redistribute, attribute to Storyboarder and Wonder Unit with a link should be placed conspicuously both on distribution site and on the application itself. (Show credit to us for our work)
+Some sort of CLA (Contributor License Agreement), that states that they will grant an irrevocable license to allow the project maintainer to use the contribution.
+Right to freely distribute with the EXCEPTION of educational institutions, public or private, commercial or non-commercial. Educational institutions are free to download from Wonder Unit, of course.
+But what about the children!?!?
+Yes. You’ve done it. You’ve centered me. I have realized that the educational world needs an educational version of Storyboarder. Therefore, Wonder Unit will be releasing an educational version along with every version of the real version.
+
+FEATURES WILL INCLUDE:
+
+Otherwise stated, exactly all the same shit.
+No swears.
+No political commentary.
+No nudity.
+No fun.
+And it will only cost $30 per seat.
+
+Wonder Unit is a movie studio of creative talent that develops wonderful stories and produces those stories into movies. We also develop tools to help us make those movies.
+
+Learn more
+About us
+Explorers: The movie
+Technology
+Want to help?
+We're looking for people to join our team for movie and software development.
+
+Or just want to hear about our projects? Email us at charles@wonderunit.com
+
+Get updates
+Subscribe to our monthly email newsletter for updates.
+
+Subscribe!
+We need people to join our team: Creatives, Writers, Engineers.
+We want to make movies for our 12 year old selves.
+We build tools, software, and assets that help us create wonder.
+Pairing creativity and technology to tell meaningful, moving stories.
+Home Explorers Software About
+© 2019 Wonder Unit, Inc. All rights reserved.
+
+Email
